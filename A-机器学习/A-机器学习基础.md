@@ -150,8 +150,7 @@ Index
 **贝叶斯公式**
   <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=\fn_phv&space;\large&space;P(Y|X)=\frac{P(X|Y)*P(Y)}{P(X)}"><img src="../_assets/公式_20180817230314.png" height="" /></a></div>
   
-###贝叶斯公式
-
+### 贝叶斯公式
 $P(y|x)=\frac{P(x|y)P(y)}{P(x)}$
 
 + $P(y|x)$表示后验概率，一般是求解目标

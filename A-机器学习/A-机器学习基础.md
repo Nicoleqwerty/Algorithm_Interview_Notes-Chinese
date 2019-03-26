@@ -149,3 +149,16 @@ Index
 
 **贝叶斯公式**
   <div align="center"><a href="http://www.codecogs.com/eqnedit.php?latex=\fn_phv&space;\large&space;P(Y|X)=\frac{P(X|Y)*P(Y)}{P(X)}"><img src="../_assets/公式_20180817230314.png" height="" /></a></div>
+  
+###贝叶斯公式
+
+$P(y|x)=\frac{P(x|y)P(y)}{P(x)}$
+
++ $P(y|x)$表示后验概率，一般是求解目标
++ $P(x|y)$表示条件概率/似然概率，由历史数据统计可以求得
++ $P(y)$先验概率，由历史数据统计可以求得
++ $P(x)$先验概率，通常由全概率公式求
+
+###example
+
+假设y表示文章种类，x是向量表示文章中每个单词的出现次数，$P(x|y),P(y),P(x)$可以直接统计得到
